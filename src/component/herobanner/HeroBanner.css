@@ -1,0 +1,26 @@
+.container {
+    background: url('../../assets/images/graphic.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.text {
+    color: #964B00;
+    position: absolute;
+    right: 5%;
+    bottom: 35%;
+    width: 30%;
+    margin: 10px 20px;
+}
+h1.header {
+    font-size: 25px;
+}
+
+.dog {
+    font-size: 17px;
+    opacity: 0.8;
+    text-align: justify;
+}

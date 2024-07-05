@@ -1,0 +1,77 @@
+.aboutPageContainer {
+    background: #E9E5E4;
+    min-height: 100vh;
+}
+
+.aboutContents {
+    display: flex;
+    padding: 3rem 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+.rightHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    color: #964B00;
+}
+
+.rightHeader h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 43px;
+    opacity: 0.9;
+    font-weight: 600;
+}
+
+.rightHeader h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 33px;
+    opacity: 0.8;
+    font-weight: 400;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;  
+    margin-left: -15px;  
+}
+.infoCol{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.infoCol.red{
+    background: #E83555;
+}
+.infoCol.blue{
+    background: #62CFD4;
+}
+.infoCol.green{
+    background: #8B8419;
+}
+.description {
+    font-size: 15px;
+    font-weight: 300;
+    color: #964B00;
+    width: 500px;
+    text-align: justify;
+    line-height: 1.5;
+}
