@@ -10,14 +10,16 @@ const Navbar = () => {
             </div>
             <ul>
                 <li>
-                    <Link to="/" style={{textDecoration:"none", color:"#964B00"}}>Home</Link>    
+                    <Link to="/" style={{ textDecoration: "none", color: "#964B00" }}>Home</Link>
                 </li>
                 <li>
-                    <Link to="/about" style={{textDecoration:"none", color:"#964B00"}}>About</Link>    
+                    <Link to="/about" style={{ textDecoration: "none", color: "#964B00" }}>About</Link>
                 </li>
                 <li>Services</li>
                 <li>Blog</li>
-                <li>Contact</li>
+                <li>
+                    <Link to="/contact" style={{ textDecoration: "none", color: "#964B00" }}>Contact</Link>
+                </li>
             </ul>
         </div>
     )

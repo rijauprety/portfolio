@@ -4,7 +4,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    position: sticky;
+    position: relative;
     height: 80px;
 }
 .navContainer{
