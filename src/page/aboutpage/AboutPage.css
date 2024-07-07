@@ -4,6 +4,7 @@
 }
 
 .aboutContents {
+    position: relative;
     display: flex;
     padding: 3rem 1rem;
     justify-content: space-evenly;
